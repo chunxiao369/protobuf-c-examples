@@ -1,0 +1,13 @@
+prefix=/mnt/virtual-disk/program-files/proto-bufc/
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libprotobuf-c
+Description: C-API for Google's protocol buffers
+Version: 0.14
+URL: http://code.google.com/p/protobuf-c/
+Requires:
+Libs: -L${libdir} -lprotobuf-c
+Cflags: -I${includedir}
+
