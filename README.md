@@ -19,3 +19,11 @@ protocol buffers; C language; examples
 
 4. The compare to other serialize tools
     http://code.google.com/p/thrift-protobuf-compare/wiki/Benchmarking
+
+5. How to exec client and server example
+    1)
+    ./server --unix=/tmp/a --database=database
+    ./client --unix=/tmp/a
+    2)
+    ./server --port=3333 --database=database
+    ./client --tcp=127.0.0.1:3333
