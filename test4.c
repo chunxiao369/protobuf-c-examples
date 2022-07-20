@@ -13,6 +13,7 @@ void print_content(int len, uint8_t *buf)
         printf("%02x ", buf[i]);
     }
     printf("\n");
+    /*test */
 }
 
 int example1(int argc, char **argv)

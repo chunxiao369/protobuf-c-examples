@@ -27,3 +27,4 @@ protocol buffers; C language; examples
     2)
     ./server --port=3333 --database=database
     ./client --tcp=127.0.0.1:3333
+test 
